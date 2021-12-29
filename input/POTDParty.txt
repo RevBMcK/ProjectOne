@@ -1,0 +1,22 @@
+1,1,Estelle Bright,Siren,Aether,Machinist,3311473,200,12/08/2021 12:06 PM
+2,1,Cyris Tim,Siren,Aether,Reaper,3311473,200,12/08/2021 12:04 PM
+3,3,Finh Bezahl,Jenova,Aether,Paladin,3234646,200,11/25/2021 8:29 PM
+4,3,Maho Rin,Cactuar,Aether,Machinist,3234646,200,11/25/2021 8:29 PM
+5,5,Admiral Castbar,Sargatanas,Aether,Black Mage,3124594,200,03/24/2020 4:22 PM
+6,5,Pec Adore,Faerie,Aether,Warrior,3124594,200,03/24/2020 4:22 PM
+7,5,Luna Myh',Sargatanas,Aether,Machinist,3124594,200,03/24/2020 4:22 PM
+8,8,Power'gi Chan,Sargatanas,Aether,Machinist,2994413,200,04/29/2021 7:28 PM
+9,8,Tek Izzy,Gilgamesh,Aether,Paladin,2994413,200,04/29/2021 7:28 PM
+10,8,Scarletta Vendetta,Midgardsormr,Aether,Summoner,2994413,200,04/29/2021 7:27 PM
+11,1,Archon Ghoul,Behemoth,Primal,Machinist,3128619,200,05/20/2020 8:46 PM
+12,1,Nota Dps,Behemoth,Primal,Red Mage,3128619,200,05/20/2020 8:46 PM
+13,3,Hunnie Bunnie,Lamia,Primal,Gunbreaker,3021055,200,09/18/2020 8:47 PM
+14,3,Yolle Valjabun,Exodus,Primal,White Mage,3021055,200,09/18/2020 8:47 PM
+15,3,Grey Area,Famfrit,Primal,Machinist,3021055,200,09/18/2020 8:47 PM
+16,3,Niva Eskander,Exodus,Primal,Ninja,3021055,200,09/18/2020 8:47 PM
+17,7,Kinsara Snow,Exodus,Primal,Gunbreaker,3015884,200,09/14/2020 9:12 PM
+18,7,Krimzon Shade,Exodus,Primal,Dragoon,3015884,200,09/14/2020 9:11 PM
+19,9,Celessa Moondara,Ultros,Primal,Black Mage,3014184,200,09/26/2021 2:55 PM
+20,9,Sinoth Hylith,Ultros,Primal,White Mage,3014184,200,09/26/2021 2:53 PM
+
+
