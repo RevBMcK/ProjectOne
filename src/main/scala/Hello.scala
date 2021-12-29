@@ -1,4 +1,4 @@
-import org.apache.spark.sql.SparkSession
+import org.apache.spark.sql._
 import sys.process._
 
 object Hello {
@@ -30,12 +30,23 @@ object Hello {
     /*val showu = "ls -al" !
 
     println(showu)*/
+
+    //Works perfectly
     spark.sql("DROP TABLE POTDPartyData")
     spark.sql("CREATE TABLE IF NOT EXISTS POTDPartyData(ID INT, Rank INT, Name STRING, Server STRING, Datacenter STRING, Job STRING, Score INT, Floor INT, Date STRING) row format delimited fields terminated by ','")
     spark.sql("LOAD DATA LOCAL INPATH 'POTDParty.txt' INTO TABLE POTDPartyData")
     spark.sql("SELECT * FROM POTDPartyData").show()
     spark.sql("SELECT DISTINCT ID, Name, Score, Date FROM POTDPartyData WHERE Server = 'Exodus'").show()
     spark.sql("SELECT DISTINCT ID, Name, Job, Score, Date FROM POTDPartyData WHERE Job = 'Machinist'").show()
+
+    //Reading my csv file
+    /*var df3 = spark.read.csv("POTDSoloPal.csv")
+    df3.show()
+    df3.withColumnRenamed()*/
+
+    /*spark.sql("CREATE TABLE IF NOT EXISTS POTDSoloTest(ID INT, Rank INT, Name STRING, Data_Center STRING, Job STRING, Score INT, Floor STRING, Date STRING) row format delimited fields terminated by ',' enclosed by ''' lines terminated by'/n'")
+    spark.sql("LOAD DATA LOCAL INPATH 'POTDSoloPal.csv' INTO TABLE POTDSoloTest") //FIELDS TERMINATED BY ',' ENCLOSED BY ''' LINES TERMINATED BY '/n' IGNORE 1 ROWS")
+    spark.sql("SELECT * FROM POTDSoloPal").show()*/
 
     /*spark.sql("CREATE TABLE IF NOT EXISTS POTDSoloData(ID INT, Rank INT, Name STRING, Server STRING, Datacenter STRING, Job STRING, Score INT, Floor INT, Date STRING) row format delimited fields terminated by ','")
     spark.sql("LOAD DATA LOCAL INPATH 'POTDParty.txt' INTO TABLE POTDPartyData")

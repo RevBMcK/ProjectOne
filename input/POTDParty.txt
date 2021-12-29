@@ -18,5 +18,16 @@
 18,7,Krimzon Shade,Exodus,Primal,Dragoon,3015884,200,09/14/2020 9:11 PM
 19,9,Celessa Moondara,Ultros,Primal,Black Mage,3014184,200,09/26/2021 2:55 PM
 20,9,Sinoth Hylith,Ultros,Primal,White Mage,3014184,200,09/26/2021 2:53 PM
+21,1,Usagi Mimi,Carbuncle,Elemental,3304052,200,09/28/2020 7:11 AM
+22,2,Lil Lilly,Gungnir,Elemental,3106263,200,08/11/2021 7:57 AM
+23,2,Aida Wedo,Gungnir,Elemental,3106263,200,08/11/2021 7:57 AM
+24,4,Kairi Unabara,Unicorn,Elemental,3075081,200,02/15/2020 9:51 AM
+25,4,Rinko Yki,Unicorn,Elemental,3075081,200,02/15/2020 9:51 AM
+26,6,Kisuka Sparta,Unicorn,Elemental,,3001977,200,06/26/2021 12:30 AM
+27,6,Chan Co,Ramuh,Elemental,3001977,200,06/26/2021 12:29 AM
+28,6,Fumi Project,Aegis,Elemental,3001977,200,06/26/2021 12:29 AM
+29,6,Suhr Srv,Unicorn,Elemental,3001977,200,06/26/2021 12:29 AM
+30,10,Kyan Ko,Ramuh,Elemental,2966469,Floor 200,03/20/2021 7:05 AM
+
 
 
