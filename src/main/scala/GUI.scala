@@ -1,13 +1,20 @@
-import java.awt._
+/*import java.awt._
 import javax.swing._
+import scala.tools.nsc.interactive.NullLogger.close
 
-object GUI extends App {
+object GUI extends JFrame {
 
   val f = new JFrame //creating instance of JFrame
-  val b = new JButton("click") //creating instance of JButton
-  b.setBounds(130, 100, 100, 40) //x axis, y axis, width, height
+  val loginButton = new JButton("Login")
+  val exitButton = new JButton("Exit")
 
-  f.add(b) //adding button in JFrame
+  loginButton.setBounds(130, 100, 100, 40) //x axis, y axis, width, height
+
+  exitButton.setBounds(130, 200, 100, 40)
+
+
+  f.add(loginButton) //adding button in JFrame
+  f.add(exitButton)
 
   f.setSize(400, 500) //400 width and 500 height
 
@@ -26,3 +33,4 @@ object GUI extends App {
   frame.setVisible(true)*/
 
 }
+*/
