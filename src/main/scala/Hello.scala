@@ -1,3 +1,4 @@
+import io.netty.util.ResourceLeakDetector.Level
 import org.apache.spark.sql._
 import org.apache.spark.sql.hive.test.TestHive.sparkContext
 
@@ -9,19 +10,6 @@ object Hello {
     var userAdminData = ""
 
     println("Hello")
-    print("Input username: ")
-    val userName = scala.io.StdIn.readLine()
-
-    print("Input password: ")
-    val password = scala.io.StdIn.readLine()
-
-    if (userName == "Basic" && password == "123") {
-      println("Welcome " + userName) }
-    else if (userName == "Admin" && password == "456") {
-      println("Welcome " + userName + ". You have partitioning and bucket permissions.") }
-    else {
-      println("Invalid user. Goodbye")
-      System.exit(1) }
 
     System.setProperty("hadoop.home.dir", "C:\\Hadoop")
     val spark = SparkSession
@@ -35,6 +23,20 @@ object Hello {
     spark.sparkContext.setLogLevel("WARN")
     spark.sql("SET hive.exec.dynamic.partition=true")
     spark.sql("SET hive.exec.dynamic.partition.mode=nonstrict")
+
+    print("Input username: ")
+    val userName = scala.io.StdIn.readLine()
+
+    print("Input password: ")
+    val password = scala.io.StdIn.readLine()
+
+    if (userName == "Basic" && password == "123") {
+      println("Welcome " + userName) }
+    else if (userName == "Admin" && password == "456") {
+      println("Welcome " + userName + ". You have partitioning and bucket permissions.") }
+    else {
+      println("Invalid user. Goodbye")
+      System.exit(1) }
 
     //Works well
     spark.sql("DROP TABLE POTDPartyData")
@@ -50,6 +52,12 @@ object Hello {
 
     def userI():Any = {
       println("Choose data to display (1-6) Type 'q' to quit")
+      println("1. Job with the Highest Score")
+      println("2. Job that completes POTD the most")
+      println("3. Most played Job")
+      println("4. Player with most recorded scores")
+      println("5. Date with most scores recorded")
+      println("6. Top Servers with the most clears")
       val userInput = scala.io.StdIn.readLine()
 
       userInput match {
