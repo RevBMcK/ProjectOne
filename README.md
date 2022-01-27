@@ -3,10 +3,6 @@ A small data parser for high-scores in FFXIV's POTD.
 
 Outputs the player data from the POTD high-scores website into a table using SQL
 
-## Project 1
-- Project 1 will be a Scala console application that is retrieving data using Hive or MapReduce. Your job is to build a real-time news analyzer. This application should allow users to view the trending topics (e.g. all trending topics for news related to "politics", "tv shows", "movies", "video games", or "sports" only [choose one topic for project]).
-- You must present a project proposal to trainer and be approved before proceeding with project. 
-
 ### MVP:
 - ALL user interaction must come purely from the console application
 - Hive/MapReduce must:
@@ -25,8 +21,8 @@ Outputs the player data from the POTD high-scores website into a table using SQL
 - Export all results into a JSON file/ can optional because(changes done)
 
 ### Presentations
-- You will be asked to run an analysis using the console application on the day of the presentation, so be prepared to do so.
-- We'll have 5-10 minutes a piece, so make sure your presentation can be covered in that time, focusing on the parts of your analysis you find most interesting.
+- Run an analysis using the console application.
+
 
 ### Technologies
 - Hadoop MapReduce
